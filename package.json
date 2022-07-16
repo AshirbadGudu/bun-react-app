@@ -6,7 +6,10 @@
     "react-dom": "^17.0.2",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "bun dev",
+    "build": "react-scripts build"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -14,7 +17,20 @@
     ]
   },
   "devDependencies": {
-    "typescript": "latest",
-    "react-refresh": "0.10.0"
+    "react-refresh": "0.10.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
