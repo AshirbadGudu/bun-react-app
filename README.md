@@ -23,7 +23,7 @@ curl https://bun.sh/install | bash
 Now run the following command to create a react app
 
 ```sh
-bun create react [your-app-name]
+bun create react-app [your-app-name]
 ```
 
 It will create a new directory with the name of your app. To start the app run the following command
